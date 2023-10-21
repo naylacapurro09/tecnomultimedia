@@ -1,4 +1,4 @@
-//-----> LINK A VIDEO EXPLICATIVO: 
+//-----> LINK A VIDEO EXPLICATIVO: https://youtu.be/WHLZx1ZxClo
 
 function preload() {
   vest = loadImage('data/vestido.png'); 
