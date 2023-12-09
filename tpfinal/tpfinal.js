@@ -1,6 +1,4 @@
-//Acá declaro todas las function que voy a usar
-//El juego definde las clases: Pantalla, Juego, Vestido, Cenicienta
-//Eventos mediante funciones: preload, setup, draw, mouseClicked, keyPressed
+//LINK A VIDEO EXPLICATIVO: https://youtu.be/4AY1EjNAVzk
 
 let pantallaActual;
 let juego;
