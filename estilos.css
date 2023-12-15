@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fragment+Mono&display=swap');
+
+body, h1, li {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    padding: 0;
+    margin: 10px;
+    padding-top: 0;
+    text-align: center;
+    
+}
+
+body {
+background-color: rgb(255, 255, 255);
+}
+h1 {
+    color: black;
+}
+div {
+    width: 800px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 183);
+    border-radius: 5px;
+    height: 30px;
+    padding-top: 5px;
+    font-family: 'DM Serif Display', serif;
+}
+article{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Fragment Mono', monospace;
+    
+}
+footer{
+  padding-top: 0px;
+
+}
+.centrar{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+
+}
+.adaptable{
+    width: 100%;
+    height: auto;
+}
+nav li{
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(170, 0, 255);
+    padding: 20px;
+    display: block;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+nav a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 251, 0);
+}
+html{
+    scroll-behavior: smooth;
+}
+.titulos {
+    text-align: center;
+}
+nav ul{
+    align-content: center;
+}
+
+.celda {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+
+.columna {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+button{
+    background-color: gold;
+    width: 200px;
+    height: 50px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    border-color: gold;
+}
+
+
+@media (max-width: 600px)  {
+nav a {
+    padding: 6px;
+}
+}
